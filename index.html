@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Geeksforgeeks</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="header__logo">Geeksforgeeks VIIT</a>
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+                <!-- <img src="logo.png" alt=""> -->
+                <!-- <h1 class="hero-heading">Geeksforgeeks_VIIT</h1> -->
+                <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav__close md hydrated" id="nav-close" role="img" aria-label="close outline"></ion-icon>
+
+
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Events</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Team</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Contests</a></li>  
+                        </ul>
+                    </div>
+    
+                   
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- SECTIONS------------------------------------------------------------------------------------ -->
+
+
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+    
+            <div class="about__container bd-grid">
+                <div class="about__img" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                    <img src="logo.png" alt="" class="logo">
+                    <h1 style = "color:green; font-size:2.5rem">Geeksforgeeks</h1>
+                    <h2>Student Chapter</h2>
+                    <h2>VIIT </h2>
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle" data-sr-id="4" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">Geeksforgeeks</h2>
+                    <p class="about__text" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">Greetings to all Geeks out there.<br>
+                     <br> We welcome you to the platform where we consistently strive to offer the best of education <br>
+                      <br>  
+                      <br>
+                      This platform has been designed for every geek wishing to grab their dream job. We have millions of articles , live as well as online courses , thousands and much more just for the geek inside you.
+                      Founded at the dawn of the computer age, GFG's reach extends to every part of the globe, with more than half of its nearly 100,000 members residing outside the U.S. Its growing membership has led to Councils in Europe, India, and China, fostering networking opportunities that strengthen ties within and across countries and technical communities. Their actions enhance ACM’s ability to raise awareness of computing’s important technical, educational, and social issues around the world.
+
+                      <br></p>
+                </div>                                   
+            </div>
+        </section>
+
+
+
+        <!--  Events and alll  - ------------------- -  ---------------- - - -   -->
+
+        <!-- <main> -->
+            <section class="container1">
+              <!-- title -->
+              <div class="title">
+                <h2>our reviews</h2>
+                <div class="underline"></div>
+              </div>
+              <!-- review -->
+              <article class="review">
+                <div class="img-container">
+                  <img src="person3.jpg" id="person-img" alt="">
+                </div>
+                <h4 id="author">Sofia</h4>
+                <p id="job">INTERN</p>
+                <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?</p>
+                <!-- prev next buttons-->
+                <div class="button-container">
+                  <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+                <!-- random button -->
+                <button class="random-btn">surprise me</button>
+              </article>
+            </section>
+          </main>
+
+
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="script.js"></script>
+        <script src="events.js"></script>
+
+    </body>
+</html>
