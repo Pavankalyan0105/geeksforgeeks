@@ -404,7 +404,7 @@ img {
     width: 100%;
   }
   .nav__content {
-    -ms-grid-columns: (max-content)[3];
+    /* -ms-grid-columns: (max-content)[3]; */
         grid-template-columns: repeat(3, -webkit-max-content);
         grid-template-columns: repeat(3, max-content);
     -ms-grid-rows: 1fr;
