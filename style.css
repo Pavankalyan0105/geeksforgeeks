@@ -2,7 +2,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 
+/*
+=============== 
+Footer----------------------------------------------------
+===============
+*/
 
+
+
+/* Footer */
+
+.footer{
+    padding:2rem 1rem;
+    background: #ECFDF5;
+    text-align: center;
+    color: #ECFDF5;
+    border-top-right-radius:2rem;
+    background: var(--clr-primary-5);
+}
+
+
+
+.footer .link{
+    color:black;
+    padding:0.5rem;
+}
+
+
+/* .footer .link:nth-child(2){
+    /* margin-left:-2rem; */
+} */
+
+.footer .footer-header{
+    margin-bottom:2rem;
+    margin-left:3rem;
+    font-weight: bold;
+    font-size:large;
+    color:black;
+    text-align:center;
+}
+
+link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin:1rem auto 2rem auto;
+
+}
+.link img{
+    width:35px;
+}
+.list-item-inline {
+    color:#24232A;
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-size: 3px;    
+}
+
+.footer{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: align-items;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* ----------------------------------- */
 main {
   min-height: 100vh;
   display: grid;
@@ -906,9 +977,3 @@ main {
   display: grid;
   place-items: center;
 }
-
-/*
-=============== 
-Eveents----------------------------------------------------
-===============
-*/
