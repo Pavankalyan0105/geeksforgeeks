@@ -38,7 +38,7 @@ const persons = [
         role: "CONTENT WRITING",
         name:"",
         image:"event4.jpg",
-        info: "This Technical Content Writing Contest will be a 21-Day event. There are not any eligibility criteria for this Write From Home challenge i.e., anyone can take part in the contest. Also, you can take part in the event from wherever you want, all you need is a laptop and an internet connection!"
+        info: "This Technical Content Writing Contest will be a 21-Day event. There are not any eligibility criteria for this Write From Home challenge i.e., anyone can take part in the contest. !"
     }
 ]
 
