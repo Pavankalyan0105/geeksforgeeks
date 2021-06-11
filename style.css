@@ -19,7 +19,7 @@ html{
     background: #ECFDF5;
     text-align: center;
     color: #ECFDF5;
-    border-top-right-radius:2rem;
+    /* border-top-right-radius:2rem; */
     background: var(--clr-primary-5);
 }
 
